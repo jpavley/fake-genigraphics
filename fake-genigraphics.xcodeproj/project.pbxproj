@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AAED2D81BEDDCD60033C7EB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5AAED2D71BEDDCD60033C7EB /* .gitignore */; };
 		5AF8DB251BEDA91700D61486 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8DB241BEDA91700D61486 /* AppDelegate.swift */; };
 		5AF8DB271BEDA91700D61486 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8DB261BEDA91700D61486 /* ViewController.swift */; };
 		5AF8DB2A1BEDA91700D61486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF8DB281BEDA91700D61486 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5AAED2D71BEDDCD60033C7EB /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		5AF8DB211BEDA91700D61486 /* fake-genigraphics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fake-genigraphics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF8DB241BEDA91700D61486 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AF8DB261BEDA91700D61486 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		5AF8DB231BEDA91700D61486 /* index-card1 */ = {
 			isa = PBXGroup;
 			children = (
+				5AAED2D71BEDDCD60033C7EB /* .gitignore */,
 				5AF8DB241BEDA91700D61486 /* AppDelegate.swift */,
 				5AF8DB261BEDA91700D61486 /* ViewController.swift */,
 				5AF8DB281BEDA91700D61486 /* Main.storyboard */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AAED2D81BEDDCD60033C7EB /* .gitignore in Resources */,
 				5AF8DB2F1BEDA91700D61486 /* LaunchScreen.storyboard in Resources */,
 				5AF8DB2C1BEDA91700D61486 /* Assets.xcassets in Resources */,
 				5AF8DB2A1BEDA91700D61486 /* Main.storyboard in Resources */,
