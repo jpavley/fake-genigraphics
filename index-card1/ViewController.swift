@@ -9,17 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+    @IBAction func handlePinch(recognizer : UIPinchGestureRecognizer) {
+        if let view = recognizer.view {
+            view.transform = CGAffineTransformScale(view.transform,
+                recognizer.scale, recognizer.scale)
+            recognizer.scale = 1
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func handleRotate(recognizer : UIRotationGestureRecognizer) {
+        if let view = recognizer.view {
+            view.transform = CGAffineTransformRotate(view.transform, recognizer.rotation)
+            recognizer.rotation = 0
+        }
     }
-
 
 }
 
